@@ -96,6 +96,7 @@
       });
       _ref = dom.children;
       _results = [];
+      if (!_ref) return _results;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         carea = _ref[_i];
         if (carea.attribs["class"] === 'ocr_carea') {
